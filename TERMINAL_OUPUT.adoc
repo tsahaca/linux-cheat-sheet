@@ -44,7 +44,7 @@
 |& tee -a ||   yes    |   yes    ||   yes    |   yes    ||  append
 
 
-=== List:
+=== Table:
 
 [frame=ends,sides]
 |===
