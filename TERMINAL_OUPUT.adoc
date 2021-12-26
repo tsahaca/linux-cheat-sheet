@@ -9,4 +9,13 @@
 
 |to append data
 |SomeCommand >> SomeFile.txt
+
+|if you want stderr
+|SomeCommand &> SomeFile.txt 
+
+|to append data
+|SomeCommand >> SomeFile.txt
+
+|if you want to have both stderr and output displayed on the console and in a file
+|SomeCommand 2>&1 | tee SomeFile.txt
 |===
