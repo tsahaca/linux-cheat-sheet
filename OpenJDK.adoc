@@ -4,6 +4,10 @@
 |===
 |Column 1, header row |Column 2, header row 
 
+|Install OpenJDK
+|sudo apt install openjdk-8-jdk && sudo apt install openjdk-11-jdk 
+
+
 |Remove OpenJDK
 |sudo apt remove openjdk*
 
