@@ -1,11 +1,16 @@
 == To Remove OpenJDK
 
-Remove OpenJDK,
+[frame=ends,sides]
+|===
+|Column 1, header row |Column 2, header row 
 
-sudo apt remove openjdk*
-Remove OpenJDK along with dependencies,
+|Remove OpenJDK
+|sudo apt remove openjdk*
 
-sudo apt remove --auto-remove openjdk*
-Remove OpenJDK and the configuration files
+|Remove OpenJDK along with dependencies
+|sudo apt remove --auto-remove openjdk*
 
-sudo apt purge openjdk*
+|Remove OpenJDK and the configuration files
+|sudo apt purge openjdk*
+|===
+
