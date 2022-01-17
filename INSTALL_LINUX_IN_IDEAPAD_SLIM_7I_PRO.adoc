@@ -1,4 +1,17 @@
 == To fix the keyboard and the screen flickering
+
+To fix the keyboard and the screen flickering (tested on manjaro 5.13 kernel and ubuntu 21.04)
+
+[frame=ends,sides]
+|===
+|File Name |Config Name |New Value
+
+|/etc/default/grub
+|GRUB_CMDLINE_LINUX_DEFAULT
+|GRUB_CMDLINE_LINUX_DEFAULT="i915.enable_psr=0 i8042.direct i8042.dumbkbd"
+|===
+
+
 To fix the keyboard and the screen flickering (tested on manjaro 5.13 kernel and ubuntu 21.04), 
 change your grub config entry named GRUB_CMDLINE_LINUX_DEFAULT in /etc/default/grub to:
 GRUB_CMDLINE_LINUX_DEFAULT="i915.enable_psr=0 i8042.direct i8042.dumbkbd"
