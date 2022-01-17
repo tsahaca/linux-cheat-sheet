@@ -13,7 +13,7 @@ Machine-Owner key (MOK) in your system’s firmware.
 
 === Upon system reboot, you will need to perform MOK management.
 
-Choose Enroll MOK » Continue » Yes » Enter Password (you have set earlier) » Reboot.
+Choose [red yellow-background big]*Enroll MOK » Continue » Yes » Enter Password (you have set earlier) » Reboot*
 
 Wait for the system to come up after a reboot and then start VirtualBox
 
@@ -24,15 +24,4 @@ Command Line Mode
 
 virtualbox
 
-
-
-.Optional Title
-[NOTE]
-===============================
-*NOTE* Block
-
-If you have an Ubuntu system with UEFI secure boot enabled, during the VirtualBox installation, the system will ask you to set a password 
-(If not already set during the OS installation or MOK is not enrolled after the OS installation) and that can be used at the time of enrolling 
-Machine-Owner key (MOK) in your system’s firmware.
-===============================
 
