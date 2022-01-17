@@ -1,0 +1,38 @@
+== UEFI Secure Boot Enabled
+If you have an Ubuntu system with UEFI secure boot enabled, during the VirtualBox installation, the system will ask you to set a password 
+(If not already set during the OS installation or MOK is not enrolled after the OS installation) and that can be used at the time of enrolling 
+Machine-Owner key (MOK) in your system’s firmware.
+
+=== Follow these steps
+
+. Click OK on configuring secure boot wizard.
+. Set a password for secure boot.
+. Enter the password again to confirm the password.
+. Reboot the system.
+. sudo reboot
+
+=== Upon system reboot, you will need to perform MOK management.
+
+Choose Enroll MOK » Continue » Yes » Enter Password (you have set earlier) » Reboot.
+
+Wait for the system to come up after a reboot and then start VirtualBox
+
+=== Access VirtualBox
+Start the VirtualBox
+
+Command Line Mode
+
+virtualbox
+
+
+
+.Optional Title
+[NOTE]
+===============================
+*NOTE* Block
+
+If you have an Ubuntu system with UEFI secure boot enabled, during the VirtualBox installation, the system will ask you to set a password 
+(If not already set during the OS installation or MOK is not enrolled after the OS installation) and that can be used at the time of enrolling 
+Machine-Owner key (MOK) in your system’s firmware.
+===============================
+
