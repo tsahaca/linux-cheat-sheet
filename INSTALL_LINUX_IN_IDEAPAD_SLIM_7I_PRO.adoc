@@ -1,6 +1,7 @@
 == To fix the keyboard and the screen flickering
 
 Follow this links also 
+
 . https://wiki.ubuntu.com/Kernel/KernelBootParameters
 . https://askubuntu.com/questions/19486/how-do-i-add-a-kernel-boot-parameter
 
