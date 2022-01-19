@@ -1,6 +1,8 @@
 == To fix the keyboard and the screen flickering
 
-Follow this link also https://askubuntu.com/questions/19486/how-do-i-add-a-kernel-boot-parameter
+Follow this links also 
+. https://wiki.ubuntu.com/Kernel/KernelBootParameters
+. https://askubuntu.com/questions/19486/how-do-i-add-a-kernel-boot-parameter
 
 To fix the keyboard and the screen flickering (tested on manjaro 5.13 kernel and ubuntu 21.04)
 
