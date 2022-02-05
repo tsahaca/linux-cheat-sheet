@@ -1,3 +1,7 @@
+
+:repo: https://github.com/tsahaca/linux-cheat-sheets
+:img: {repo}/images
+
 == Virtual Machine Setup for QEMU in Linux
 
 === Check Virtualization Extension 
@@ -23,6 +27,9 @@ titus@debian:~$ sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system 
 ----
 titus@debian:~$ sudo systemctl status libvirtd.service
 ----
+
+image:{img}/libvirtd-started.png[]
+
 
 
 Start Default Network for Networking
