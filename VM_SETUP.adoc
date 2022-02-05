@@ -1,6 +1,6 @@
 
 :repo: https://github.com/tsahaca/linux-cheat-sheets
-:img: {repo}/images
+:img: {repo}/blob/main/images
 
 == Virtual Machine Setup for QEMU in Linux
 
