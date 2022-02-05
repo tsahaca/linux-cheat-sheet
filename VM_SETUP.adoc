@@ -1,5 +1,6 @@
-Virtual Machine Setup for QEMU in Linux
-Check Virtualization Extension 
+== Virtual Machine Setup for QEMU in Linux
+
+=== Check Virtualization Extension 
 
 Run this command to make sure you've enabled virtualization in on your computer. It should be above 0
 titus@debian:~$  egrep -c '(vmx|svm)' /proc/cpuinfo
