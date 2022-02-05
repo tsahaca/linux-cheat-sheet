@@ -1,7 +1,5 @@
 == How to Install Arch Linux [Step by Step Guide]
-
 https://itsfoss.com/install-arch-linux/
 
 == 7 Essential Things To Do After Installing Arch Linux 
-
 https://itsfoss.com/things-to-do-after-installing-arch-linux/
