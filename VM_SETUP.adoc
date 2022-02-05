@@ -31,23 +31,32 @@ titus@debian:~$ sudo systemctl status libvirtd.service
 image:{img}/libvirtd-started.png[]
 
 
-
-Start Default Network for Networking
+=== Start Default Network for Networking
 
 VIRSH is a command to directly interact with our VMs from terminal. We use it to list networks, vm-status and various other tools when we need to make tweaks. Here is how we start the default and make it auto-start after reboot. 
+
+[source,bash]
+----
 titus@debian:~$ sudo virsh net-start default
 Network default started
 titus@debian:~$ sudo virsh net-autostart default
 Network default marked as autostarted
-Check status with:
+----
+
+.*Check status with:*
+[source,bash]
+----
 titus@debian:~$ sudo virsh net-list --all
  Name      State      Autostart   Persistent
 ----------------------------------------------
  default   active       yes          yes
+----
 
-Add User to libvirt to Allow Access to VMs 
-
+=== Add User to libvirt to Allow Access to VMs 
+[source,bash]
+----
 titus@debian:~$ sudo adduser titus libvirt
 titus@debian:~$ sudo adduser titus libvirt-qemu
+----
 
 Reboot and you are Finished!
