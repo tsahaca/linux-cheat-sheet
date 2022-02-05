@@ -1,7 +1,5 @@
-
 :repo: https://github.com/tsahaca/linux-cheat-sheets
 :img: {repo}/blob/main/images
-
 == Virtual Machine Setup for QEMU in Linux
 
 === Check Virtualization Extension 
