@@ -14,7 +14,8 @@ root@archiso ~ # loadkeys <the string for your country>
 ----
 root@archiso ~ # ip a
 ----
-
+If your computer is connect via ethernet cable, you are good to go. 
+Now follow these steps to connect via WiFi
 
 
 https://itsfoss.com/install-arch-linux/
