@@ -1,4 +1,10 @@
 == How to Install Arch Linux [Step by Step Guide]
+
+. Boot from usb with ArchLinux iso
+. Change the keyboard layout if you do not have US keyboard
+  . To find out the list of keyboard layout 
+  . localectl list-keymaps | grep <your country code>
+
 https://itsfoss.com/install-arch-linux/
 
 == 7 Essential Things To Do After Installing Arch Linux 
