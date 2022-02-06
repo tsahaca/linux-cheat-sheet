@@ -2,20 +2,37 @@
 
 . Boot from usb with ArchLinux iso
 . Change the keyboard layout if you do not have US keyboard, otherwise proceed to step# 3
-.. To find out the list of keyboard layout 
+.. To find out the list of keyboard layout, execute the following commands in root@archiso ~ # prompt 
 [source,bash]
 ----
-root@archiso ~ # localectl list-keymaps | grep <Your Country Code>
-root@archiso ~ # loadkeys <the string for your country>
+localectl list-keymaps | grep <Your Country Code>
+loadkeys <the string for your country>
 ----
 [start=3]
 . check the internet connection 
 [source,bash]
 ----
-root@archiso ~ # ip a
+ip a
 ----
 If your computer is connect via ethernet cable, you are good to go. 
-To connect using WiFi, follow these steps
+[start=4]
+. To connect using WiFi, follow these steps, 
+[source,bash]
+----
+ip a
+iwctl
+
+the prompt will change to [iwd]# 
+Now to find the name of the Wifi apater
+[iwd]# device list
+[iwd]# station <adapter name> scan 
+[iwd]# station <adapter name> get-networks
+[iwd]# station <adapter name> connect <SSID>
+Enter password
+exit iwctl 
+ip a
+----
+
 
 
 https://itsfoss.com/install-arch-linux/
