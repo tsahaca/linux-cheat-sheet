@@ -1,12 +1,17 @@
 == How to Install Arch Linux [Step by Step Guide]
 
 . Boot from usb with ArchLinux iso
-. Change the keyboard layout if you do not have US keyboard
+. Change the keyboard layout if you do not have US keyboard, otherwise proceed to step# 3
+
 .. To find out the list of keyboard layout 
 [source,bash]
 ----
 root@archiso ~ # localectl list-keymaps | grep <your country code>
 ----
+
+. Change the keyboard layout if you do not have US keyboard, otherwise proceed to step# 3
+
+
 
 https://itsfoss.com/install-arch-linux/
 
