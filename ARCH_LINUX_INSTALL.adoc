@@ -19,8 +19,8 @@ If your computer is connect via ethernet cable, you are good to go.
 . To connect using WiFi, follow these steps, 
 [source,bash]
 ----
-ip a
-iwctl
+root@archiso ~ # ip a
+root@archiso ~ # iwctl
 
 the prompt will change to [iwd]# 
 Now to find the name of the Wifi apater
@@ -30,7 +30,7 @@ Now to find the name of the Wifi apater
 [iwd]# station <adapter name> connect <SSID>
 Enter password
 exit iwctl 
-ip a
+root@archiso ~ # ip a
 ----
 
 
