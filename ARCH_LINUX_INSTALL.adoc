@@ -30,6 +30,7 @@ Now to find the name of the Wifi apater
 [iwd]# station <adapter name> connect <SSID>
 Enter password
 exit iwctl 
+[iwd]# exit
 root@archiso ~ # ip a
 ----
 
