@@ -5,7 +5,7 @@
 .. To find out the list of keyboard layout 
 [source,bash]
 ----
-root@archiso ~ # localectl list-keymaps | grep <_your country code_>
+root@archiso ~ # localectl list-keymaps | grep _YourCountryCode_
 root@archiso ~ # loadkeys <_the string for your country_>
 
 ----
