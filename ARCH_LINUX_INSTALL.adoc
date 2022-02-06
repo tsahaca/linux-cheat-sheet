@@ -40,7 +40,8 @@ root@archiso ~ # ip a
 backup the existing mirrorlist
 root@archiso ~ # cp /etc/packman.d/mirrorlist /etc/packman.d/mirrorlist.bak
 root@archiso ~ # packman -Syy reflector
-
+root@archiso ~ # reflector -c "US" -a 6 --sort rate --save /etc/pacman.d/mirrorlist
+root@archiso ~ # packman -Syy
 ----
 
 
