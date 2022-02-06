@@ -7,6 +7,7 @@
 ----
 root@archiso ~ # localectl list-keymaps | grep <your country code>
 ----
+[start=3]
 . Change the keyboard layout if you do not have US keyboard, otherwise proceed to step# 3
 
 
