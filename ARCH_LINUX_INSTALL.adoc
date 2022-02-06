@@ -33,6 +33,15 @@ exit iwctl
 [iwd]# exit
 root@archiso ~ # ip a
 ----
+[start=5]
+. Configure/Update mirrolist to get the fastest servers for package download
+[source,bash]
+----
+backup the existing mirrorlist
+root@archiso ~ # cp /etc/packman.d/mirrorlist /etc/packman.d/mirrorlist.bak
+root@archiso ~ # packman -Syy reflector
+
+----
 
 
 
