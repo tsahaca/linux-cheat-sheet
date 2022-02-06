@@ -7,10 +7,13 @@
 ----
 root@archiso ~ # localectl list-keymaps | grep <Your Country Code>
 root@archiso ~ # loadkeys <the string for your country>
-
 ----
 [start=3]
-. Change the keyboard layout if you do not have US keyboard, otherwise proceed to step# 3
+. check the internet connection 
+[source,bash]
+----
+root@archiso ~ # ip a
+----
 
 
 
