@@ -1,6 +1,18 @@
 == How to Install Arch Linux [Step by Step Guide]
 
-. Boot from usb with ArchLinux iso
+Boot from usb with ArchLinux iso
+
+.Steps,Tasks & commands
+[options="header,footer"]
+|=======================
+|Step#|Task      |Commands
+|1    |Increase the font size    |root@archiso ~ # setfont ter-132n
+
+|2    |Item 2     |b
+|3    |Item 3     |c
+|6    |Three items|d
+|=======================
+
 . Increase the font size
 . root@archiso ~ # setfont ter-132n
 . Change the keyboard layout if you do not have US keyboard, otherwise proceed to step# 3
