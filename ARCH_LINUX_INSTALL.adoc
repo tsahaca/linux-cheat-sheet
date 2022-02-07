@@ -1,6 +1,8 @@
 == How to Install Arch Linux [Step by Step Guide]
 
 . Boot from usb with ArchLinux iso
+. Increase the font size
+. root@archiso ~ # setfont ter-132n
 . Change the keyboard layout if you do not have US keyboard, otherwise proceed to step# 3
 .. To find out the list of keyboard layout, execute the following commands in root@archiso ~ # prompt 
 [source,bash]
@@ -38,10 +40,10 @@ root@archiso ~ # ip a
 [source,bash]
 ----
 backup the existing mirrorlist
-root@archiso ~ # cp /etc/packman.d/mirrorlist /etc/packman.d/mirrorlist.bak
-root@archiso ~ # packman -Syy reflector
-root@archiso ~ # reflector -c "US" -a 6 --sort rate --save /etc/pacman.d/mirrorlist
-root@archiso ~ # packman -Syy
+root@archiso ~ # cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
+root@archiso ~ # pacman -Syy
+root@archiso ~ # pacman -Syy pacman-contrib
+root@archiso ~ # rankmirrors -n 10 /etc/pacman.d/mirrorlist.bak > /etc/pacman.d/mirrorlist
 ----
 
 
