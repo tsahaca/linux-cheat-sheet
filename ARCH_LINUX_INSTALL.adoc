@@ -6,9 +6,10 @@ Boot from usb with ArchLinux iso
 [options="header,footer"]
 |=======================
 |Step#|Task      |Commands
-|1    |Increase the font size    |[blue]#root@archiso ~ # setfont ter-132n
+|1    |Increase the font size    |setfont ter-132n
+|2    |Change the keyboard layout if you do not have US keyboard, otherwise proceed to step# 3     | localectl list-keymaps | grep <Your Country Code> +
+loadkeys <the string for your country>
 
-|2    |Item 2     |b
 |3    |Item 3     |c
 |6    |Three items|d
 |=======================
