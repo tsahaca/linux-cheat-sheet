@@ -5,7 +5,7 @@
 |=======================
 |Distro    |Commands
 |Ubuntu    |sudo update-grub
-|Arch, Manjaro    | TBD
+|Arch, Manjaro    | sudo grub-mkconfig -o /boot/grub/grub.cfg
 |Fedora    | TBD
 |=======================
 
