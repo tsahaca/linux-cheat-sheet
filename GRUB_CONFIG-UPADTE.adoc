@@ -1,0 +1,3 @@
+== How to update grub configuration
+
+sudo update-grub
