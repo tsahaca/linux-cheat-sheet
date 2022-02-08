@@ -1,0 +1,7 @@
+== No keyboard on laptop after wake up from suspension
+ 
+. https://ubuntuforums.org/archive/index.php/t-2224316.html
+. https://lightrush.ndoytchev.com/random-1/i8042quirkoptions
+. uname -a
+. https://bugzilla.kernel.org/show_bug.cgi?id=13159
+. https://bugzilla.redhat.com/show_bug.cgi?id=490250
