@@ -5,3 +5,4 @@
 . uname -a
 . https://bugzilla.kernel.org/show_bug.cgi?id=13159
 . https://bugzilla.redhat.com/show_bug.cgi?id=490250
+. https://askubuntu.com/questions/916465/ubuntu-17-04-keyboard-not-responding-after-suspend
