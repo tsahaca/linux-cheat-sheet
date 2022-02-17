@@ -11,4 +11,16 @@
 |Fedora    | https://www.systutorials.com/how-to-regenerate-grub2-config-file-on-linux
 |=======================
 
+== /etc/default/grub in Fedora
+
+<pre>GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR=&quot;$(sed &apos;s, release .*$,,g&apos; /etc/system-release)&quot;
+GRUB_DEFAULT=saved
+GRUB_DISABLE_SUBMENU=true
+GRUB_TERMINAL_OUTPUT=&quot;console&quot;
+GRUB_CMDLINE_LINUX=&quot;rhgb quiet splash i915.enable_psr=0 i8042.direct i8042.dumbkbd nomodeset&quot;
+GRUB_DISABLE_RECOVERY=&quot;true&quot;
+GRUB_ENABLE_BLSCFG=true
+</pre>
+
 
