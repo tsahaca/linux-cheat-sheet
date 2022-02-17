@@ -7,6 +7,7 @@
 |Ubuntu    |sudo update-grub
 |Arch, Manjaro    | sudo grub-mkconfig -o /boot/grub/grub.cfg
 |Fedora    | sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+|Fedora    | sudo grub2-mkconfig -o /etc/grub2-efi.cfg
 |=======================
 
 
