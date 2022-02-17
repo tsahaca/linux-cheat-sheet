@@ -13,14 +13,15 @@
 
 == /etc/default/grub in Fedora
 
-<pre>GRUB_TIMEOUT=5
-GRUB_DISTRIBUTOR=&quot;$(sed &apos;s, release .*$,,g&apos; /etc/system-release)&quot;
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
 GRUB_DEFAULT=saved
 GRUB_DISABLE_SUBMENU=true
-GRUB_TERMINAL_OUTPUT=&quot;console&quot;
-GRUB_CMDLINE_LINUX=&quot;rhgb quiet splash i915.enable_psr=0 i8042.direct i8042.dumbkbd nomodeset&quot;
-GRUB_DISABLE_RECOVERY=&quot;true&quot;
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="rhgb quiet splash i915.enable_psr=0 i8042.direct i8042.dumbkbd nomodeset"
+GRUB_DISABLE_RECOVERY="true"
 GRUB_ENABLE_BLSCFG=true
-</pre>
+
+
 
 
