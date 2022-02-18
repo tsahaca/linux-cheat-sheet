@@ -5,6 +5,7 @@ Follow this links also
 . https://wiki.ubuntu.com/Kernel/KernelBootParameters
 . https://askubuntu.com/questions/19486/how-do-i-add-a-kernel-boot-parameter
 . https://forums.lenovo.com/topic/view/2713/5087655?page=2
+. https://www.reddit.com/r/Lenovo/comments/q4ap23/yoga_slim_7_pro_amd_vs_intel_for_linux_users/
 
 To fix the keyboard and the screen flickering (tested on manjaro 5.13 kernel and ubuntu 21.04)
 
