@@ -1,6 +1,7 @@
 == PopOS uses kernelstub for boot loader
 
 sudo cat /etc/kernelstub/configuration
+
 {
   "default": {
     "kernel_options": [
