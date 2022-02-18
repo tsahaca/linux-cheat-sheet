@@ -2,6 +2,7 @@
 
 sudo cat /etc/kernelstub/configuration
 
+{code"json}
 {
   "default": {
     "kernel_options": [
@@ -29,6 +30,7 @@ sudo cat /etc/kernelstub/configuration
     "live_mode": false,
     "config_rev": 3
   }
+  {code}
 
 === To add user specific kernel parameters
 
