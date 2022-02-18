@@ -1,0 +1,3 @@
+== Linux (Fedora 35) on a Thinkpad P14s [T14] Gen2 AMD
+
+https://gist.github.com/linderd/71ec30048e78813115ba3f634e1b0817
