@@ -1,0 +1,34 @@
+== PopOS uses kernelstub for boot loader
+
+sudo cat /etc/kernelstub/configuration
+{
+  "default": {
+    "kernel_options": [
+      "quiet",
+      "splash"
+    ],
+    "esp_path": "/boot/efi",
+    "setup_loader": false,
+    "manage_mode": false,
+    "force_update": false,
+    "live_mode": false,
+    "config_rev": 3
+  },
+  "user": {
+    "kernel_options": [
+      "quiet",
+      "loglevel=0",
+      "systemd.show_status=false",
+      "splash"
+    ],
+    "esp_path": "/boot/efi",
+    "setup_loader": true,
+    "manage_mode": true,
+    "force_update": false,
+    "live_mode": false,
+    "config_rev": 3
+  }
+
+=== To add user specific kernel parameters
+
+sudo kernelstub -o "options goes here"
