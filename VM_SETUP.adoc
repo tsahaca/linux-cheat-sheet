@@ -2,6 +2,8 @@
 :img: {repo}/blob/main/images
 == Virtual Machine Setup for QEMU in Linux
 
+https://ostechnix.com/install-and-configure-kvm-in-ubuntu-20-04-headless-server/
+
 === Check Virtualization Extension 
 
 .Run this command to make sure you've enabled virtualization in on your computer. It should be above 0
