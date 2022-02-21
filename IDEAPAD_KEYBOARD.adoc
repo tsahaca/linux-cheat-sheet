@@ -1,3 +1,5 @@
 == Ubuntu 20.04 - Keyboard not working on Lenovo Yoga Slim 7i Pro
 
 https://askubuntu.com/questions/1352604/ubuntu-20-04-keyboard-not-working-on-lenovo-yoga-slim-7i-pro
+
+https://askubuntu.com/questions/479226/arrow-keys-and-delete-key-not-working
