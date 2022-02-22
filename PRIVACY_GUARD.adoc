@@ -1,3 +1,5 @@
 == Lenovo Thinkpad T14 Privacy Guard issue
 
 https://www.reddit.com/r/thinkpad/comments/sc5oab/success_replacing_privacy_guard_display_with/
+
+https://www.reddit.com/r/thinkpad/comments/mvohqp/t14_privacy_display_w_linux/
