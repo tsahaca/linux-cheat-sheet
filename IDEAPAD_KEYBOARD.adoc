@@ -7,3 +7,7 @@ https://askubuntu.com/questions/479226/arrow-keys-and-delete-key-not-working
 === Arrow Keys Disable Touchpad/Mapped To Shortcuts
 
 https://askubuntu.com/questions/927703/arrow-keys-disable-touchpad-mapped-to-shortcuts
+
+=== Arrow keys cause touchpad indicator to show
+
+https://askubuntu.com/questions/583304/arrow-keys-cause-touchpad-indicator-to-show
