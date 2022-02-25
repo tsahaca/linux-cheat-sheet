@@ -11,3 +11,9 @@ https://askubuntu.com/questions/927703/arrow-keys-disable-touchpad-mapped-to-sho
 === Arrow keys cause touchpad indicator to show
 
 https://askubuntu.com/questions/583304/arrow-keys-cause-touchpad-indicator-to-show
+
+=== Xev not recognizing up arrow key
+
+https://askubuntu.com/questions/290694/xev-not-recognizing-up-arrow-key
+
+https://github.com/tsahaca/linux-cheat-sheets/edit/main/IDEAPAD_KEYBOARD.adoc
