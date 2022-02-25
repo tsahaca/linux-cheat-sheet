@@ -16,4 +16,4 @@ https://askubuntu.com/questions/583304/arrow-keys-cause-touchpad-indicator-to-sh
 
 https://askubuntu.com/questions/290694/xev-not-recognizing-up-arrow-key
 
-https://github.com/tsahaca/linux-cheat-sheets/edit/main/IDEAPAD_KEYBOARD.adoc
+https://wiki.archlinux.org/title/Map_scancodes_to_keycodes
