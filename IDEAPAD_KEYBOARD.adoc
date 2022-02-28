@@ -18,6 +18,8 @@ https://askubuntu.com/questions/290694/xev-not-recognizing-up-arrow-key
 
 https://wiki.archlinux.org/title/Map_scancodes_to_keycodes
 
+https://wiki.archlinux.org/title/Keyboard_input
+
 === Linux keymapping with udev hwdb
 
 https://yulistic.gitlab.io/2017/12/linux-keymapping-with-udev-hwdb/
