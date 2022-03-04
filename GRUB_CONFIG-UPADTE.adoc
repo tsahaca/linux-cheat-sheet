@@ -29,6 +29,10 @@ GRUB_DISABLE_RECOVERY="true"
 
 GRUB_ENABLE_BLSCFG=true
 
+== Fedora Workstation: Things to do after installation (Apps, Settings, and Tweaks) 
+
+https://mutschler.eu/linux/install-guides/fedora-post-install
+
 
 
 
