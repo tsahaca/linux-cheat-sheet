@@ -23,6 +23,7 @@ https://wiki.archlinux.org/title/Keyboard_input
 === Linux keymapping with udev hwdb
 
 [source,bash]
+----
 # lenovo-ideapad
 evdev:atkbd:dmi:bvn*:bvr*:bd*:svnLENOVO*:pn*IdeaPad*:*
 evdev:atkbd:dmi:bvn*:bvr*:bd*:svnLENOVO*:pnS10-*:*
@@ -33,6 +34,6 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnLENOVO*:pnS10-*:*
  KEYBOARD_KEY_f1=delete                                 # BIOS toggles camera power
  KEYBOARD_KEY_f2=down                                    # touchpad toggle (key alternately emits F2 and F3)
  KEYBOARD_KEY_f3=f21
-
+----
 
 https://yulistic.gitlab.io/2017/12/linux-keymapping-with-udev-hwdb/
