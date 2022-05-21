@@ -22,6 +22,8 @@ https://wiki.archlinux.org/title/Keyboard_input
 
 === Linux keymapping with udev hwdb
 
+sudo cp /usr/lib/udev/hwdb.d/60-keyboard.hwdb /etc/udev/hwdb.d/99-HHKB-keyboard.hwdb
+
 [source,bash]
 ----
 # lenovo-ideapad
