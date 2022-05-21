@@ -22,7 +22,10 @@ https://wiki.archlinux.org/title/Keyboard_input
 
 === Linux keymapping with udev hwdb
 
+[source,bash]
+----
 sudo cp /usr/lib/udev/hwdb.d/60-keyboard.hwdb /etc/udev/hwdb.d/99-HHKB-keyboard.hwdb
+----
 
 [source,bash]
 ----
@@ -43,6 +46,5 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnLENOVO*:pnS10-*:*
 sudo systemd-hwdb update
 sudo udevadm trigger
 ----
-
 
 https://yulistic.gitlab.io/2017/12/linux-keymapping-with-udev-hwdb/
