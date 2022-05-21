@@ -36,4 +36,11 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnLENOVO*:pnS10-*:*
  KEYBOARD_KEY_f3=f21
 ----
 
+[source,bash]
+----
+sudo systemd-hwdb update
+sudo udevadm trigger
+----
+
+
 https://yulistic.gitlab.io/2017/12/linux-keymapping-with-udev-hwdb/
